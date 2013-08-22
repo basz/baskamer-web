@@ -1,4 +1,4 @@
 baskamer-web
 ============
 
-Website of Bas Kamer
+Website of Me
