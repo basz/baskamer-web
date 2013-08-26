@@ -1,0 +1,26 @@
+{
+    "name": "bushbaby/baskamer",
+    "description": "Bas Kamer",
+    "authors": [
+        {
+            "name": "Bas Kamer",
+            "email": "bas@bushbaby.nl"
+        }
+    ],
+    "keywords": [
+        "project",
+        "sandalinos"
+    ],
+    "minimum-stability": "dev",
+    "homepage": "http://baskamer.nl/",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.2.2",
+        "zendframework/zend-developer-tools" : "0.*",
+        "zendframework/zftool": "dev-master",
+        "slm/locale" : "dev-master",
+        "slm/google-analytics" : "0.3.0",
+        "slm/queue-doctrine": ">=0.3",
+        "zf-commons/zfc-user-doctrine-orm" : "0.1.*"
+    }
+}
