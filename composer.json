@@ -1,5 +1,5 @@
 {
-    "name": "bushbaby/baskamer",
+    "name": "baskamer/me",
     "description": "Bas Kamer",
     "authors": [
         {
@@ -9,7 +9,7 @@
     ],
     "keywords": [
         "project",
-        "sandalinos"
+        "baskamer"
     ],
     "minimum-stability": "dev",
     "homepage": "http://baskamer.nl/",
@@ -20,7 +20,6 @@
         "zendframework/zftool": "dev-master",
         "slm/locale" : "dev-master",
         "slm/google-analytics" : "0.3.0",
-        "slm/queue-doctrine": ">=0.3",
-        "zf-commons/zfc-user-doctrine-orm" : "0.1.*"
+        "slm/queue-doctrine": ">=0.3"
     }
 }
