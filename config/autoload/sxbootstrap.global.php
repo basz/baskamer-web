@@ -28,7 +28,7 @@ return array(
          *
          * @link https://github.com/SpoonX/SxBootstrap/wiki/Configuration-options#node_bin
          */
-        'node_bin'      => '/opt/local/bin/node',
+        'node_bin'      => '/usr/bin/nodejs',
 
         /**
          * If your node_modules reside elsewhere (e.g. locally installed already as a shared instance),
