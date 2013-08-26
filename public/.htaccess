@@ -11,6 +11,7 @@
 </FilesMatch>
 
 RewriteEngine On
+RewriteBase /
 # The following rule tells Apache that if the requested filename
 # exists, simply serve it.
 RewriteCond %{REQUEST_FILENAME} -s [OR]

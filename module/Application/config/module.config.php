@@ -99,4 +99,18 @@ return array(
             ),
         ),
     ),
+    'asset_manager'      => array(
+        'resolver_configs' => array(
+            'paths' => array(
+                __DIR__ . '/../public/',
+            ),
+        ),
+        'filters'          => array(
+            'css/bootstrap.css' => array(
+                array(
+                    'service' => 'SxBootstrap\Service\BootstrapFilter',
+                ),
+            ),
+        ),
+    ),
 );

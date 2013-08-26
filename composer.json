@@ -21,7 +21,8 @@
         "slm/locale" : "dev-master",
         "slm/google-analytics" : "0.3.0",
         "slm/queue-doctrine": ">=0.3",
-        "twbs/bootstrap" : "3.0.0",
-        "rwoverdijk/assetmanager" : "1.3.*"
+        "twbs/bootstrap" : "3.0.*",
+        "rwoverdijk/assetmanager" : "1.3.*",
+        "spoonx/sxbootstrap" : "2.*"
     }
 }
