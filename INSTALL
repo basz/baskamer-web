@@ -1,0 +1,9 @@
+
+Install nodejs
+
+When the project is jail'ed ensure the jail includes binaries for /usr/bin/node, /usr/bin/npm and the /usr/lib/node_module/npm directory
+
+Then cd to the project directory and run
+
+    echo 'export NODE_PATH=/usr/lib/node_modules' >> ~/.bashrc
+    $npm install less
