@@ -10,6 +10,12 @@ if (php_sapi_name() === 'cli-server' && is_file(__DIR__ . parse_url($_SERVER['RE
     return false;
 }
 
+// edpsuperluminal
+define('ZF_CLASS_CACHE', 'data/cache/classes.php.cache');
+if (file_exists(ZF_CLASS_CACHE)) {
+    require_once ZF_CLASS_CACHE;
+}
+
 // Setup autoloading
 require 'init_autoloader.php';
 
