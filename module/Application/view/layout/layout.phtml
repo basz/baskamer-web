@@ -5,20 +5,26 @@
     <meta charset="utf-8">
     <?php echo $this->headTitle('Bas Kamer Me')->setSeparator(' - ')->setAutoEscape(false) ?>
 
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+
     <?php echo $this->headMeta()
-        ->appendName('viewport', 'width=device-width, initial-scale=1.0')
+        ->appendName('viewport', 'width=device-width, initial-scale=0.5')
         ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')
     ?>
+
+    <?php echo $this->headScript()
+        ->prependFile($this->basePath() . '/js/jquery.min.js')
+        ->appendFile($this->basePath() . '/js/jquery.fitimage.js')
+        ->appendFile($this->basePath() . '/js/main.js'); ?>
 
     <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'))
         ->prependStylesheet($this->basePath() . '/css/style.css') ?>
 </head>
 <body>
-<div id="bg">
-    <div id="img">
-        <img src="/img/me.jpg" alt="It's Me!">
-    </div>
-</div>
+
+    <img src="/img/me.jpg" class="fitimage" data-scale-mode="outside" data-min-width="640" alt="It's Me!" >
+
+
 <div id="content">
     <div id="container">
         <?php echo $this->content; ?>

@@ -4,18 +4,20 @@ html, body	{
     margin: 0;
     padding: 0;
 }
+body {
+    color: #fff;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight:300;
+    font-size:em;
 
-body	{
-    color: #000;
-    font: 12px/19px "Trebuchet MS", Helvetica, sans-serif; /* Use your own font if you want. */
     text-align: center; /* This is used to center block level elements in Internet Explorer.*/
 }
 
-/* Image container. You need this. */
 #bg	{
     position: fixed;
     top: 0;
     left: 0;
+    background-color: #33feed;
     z-index: 0;
     width: 100%;
     height: 100%;
@@ -23,28 +25,28 @@ body	{
 }
 
 /* Image wrapper. You'll need this one too. */
-#img	{
-    position: relative;
-    width: 200%;
-    height: 200%;
-    top: -50%;
-    left: -50%;
-    overflow: hidden;
-}
+/*#img	{*/
+    /*position: relative;*/
+    /*width: 200%;*/
+    /*height: 200%;*/
+    /*top: -50%;*/
+    /*left: -50%;*/
+    /*overflow: hidden;*/
+/*}*/
 
 /* The background-image itself. You'll definitely want this one. */
-#img img	{
-    display: inline-block;
-    position: relative;
-    min-width: 75%;
-    min-height: 75%;
-}
+/*#img img	{*/
+    /*display: inline-block;*/
+    /*position: relative;*/
+    /*min-width: 75%;*/
+    /*min-height: 75%;*/
+/*}*/
 
 /* This is the content div. It's positioned on top of the image container.*/
 #content	{
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 10;
     padding: 80px 0; /* Keep padding-left and padding-right at 0, otherwise you can't use width: 100%. */
     width: 100%;
@@ -53,13 +55,13 @@ body	{
 
 /* Place content in here. */
 #container	{
-    display:none;
-    position: relative; /* This is necessary. */
-    margin: 0 auto; /* You auto for margin-left and margin-right if you want to center the div. */
-    padding: 60px 20px;
-    width: 600px;
-    min-height: 400px;
-    background: rgba(255, 255, 255, 0.7);
+    position: absolute; /* This is necessary. */
+    padding: 40px 20px;
+
+    right:40px;
+    max-width: 300px;
+
+    background: rgba(55, 55, 55, 0.7);
     -moz-border-radius: 10px;
     border-radius: 10px;
     text-align: left;
