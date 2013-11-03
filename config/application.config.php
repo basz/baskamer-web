@@ -4,9 +4,7 @@ return array(
     'modules' => array(
         'Application',
         'SlmGoogleAnalytics',
-        'SxBootstrap',
         'AssetManager',
-        'EdpSuperluminal',
     ),
 
     // These are various options for the listeners attached to the ModuleManager
