@@ -13,9 +13,9 @@
     ],
     "homepage": "http://baskamer.nl/",
     "require": {
-        "php": ">=5.3.3",
-        "zendframework/zendframework": "2.2.5",
-        "slm/google-analytics" : "0.3.0",
-        "rwoverdijk/assetmanager" : "1.3.*"
+        "php": ">=5.3.23",
+        "zendframework/zendframework": "~2.2",
+        "slm/google-analytics" : "~0.3",
+        "rwoverdijk/assetmanager" : "~1.3"
     }
 }
